@@ -236,11 +236,19 @@ p{
     }
     .content-left{
         row-gap: 20px;
-        padding: 0 25px;
+        padding: 0 20px;
+    }
+    footer{
+        padding: 60px 30px;
     }
 }
 
 
-.animate__fadeInRight{
+.animate__animated.animate__fadeInRight{
+    --animate-duration: 1.5s;
+
+}
+
+.animate__animated.animate__fadeInUp{
     --animate-duration: 1.5s;
 }

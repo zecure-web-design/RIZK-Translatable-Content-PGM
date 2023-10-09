@@ -50,6 +50,7 @@ p{
 }
 .hero-section{
     background: url(hero-bg.png);
+    background-position: center center;
     background-size: cover;
     min-height: 600px;
 }
@@ -198,11 +199,48 @@ p{
 
 
 
-@media (max-width:600px){
+@media (max-width:1000px){
+    .content-container{
+        flex-direction: column;
+        padding: 30px 0 0 0;
+    }
     .content-left{
-        padding: 0;
+        padding: 0 15px;
     }
     .logo{
         width: 80%;
     }
+    .footer-text{
+        width: 90%;
+    }
+    .hero-section{
+        background: url(hero-bg-1000px.jpg);
+        background-size: cover;
+        min-height: 1000px;
+        background-position: center center;
+    }
+}
+
+@media (max-width:700px){
+    h1{
+        font-size: 2.5rem;
+    }
+    h2{
+        font-size: 1.4rem;
+    }
+    .cta{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 0.8rem;
+    }
+    .content-left{
+        row-gap: 20px;
+        padding: 0 25px;
+    }
+}
+
+
+.animate__fadeInRight{
+    --animate-duration: 1.5s;
 }

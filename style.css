@@ -93,4 +93,116 @@ p{
   }
 
 
+  footer {
+    background: linear-gradient(0deg, #000, #000, #282828);
+    width: 100%;
+    text-align: center;
+    position: relative;
+    color: #6a6a6a;
+    font-family: Gibson-Regular;
+    padding: 60px;
+  }
+  
+  .terms-list{
+    list-style-type: disc;
+    text-align: left;
+  }
+  .terms-list li::marker{
+    width: 8px;
+    height: 8px;    
+  }
+  .terms-list-centered{
+    list-style-type:none;
+    text-align: center;
+  }
+  
+  footer a {
+    color: #ffffff;
+    font-family: Gibson-Regular;
+    text-decoration: none;
+  }
+  
+  .footer_logo {
+    position: absolute;
+    left: 50%;
+    top: -30px;
+    width: 178px;
+    height: 70px;
+    background-image: url(rizk-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #cecece;
+    white-space: nowrap;
+  }
+  
+  .footer-links li a {
+    margin: 0 25px;
+  }
+  
+  .footer-links li a:hover {
+    color: #ffe400;
+  }
+  
+  .footer-text {
+    padding: 50px 0;
+    width: 60vw;
+    margin: 0 auto;
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
 
+  .gambling {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .gambling a {
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .gambling a img {
+    max-width: 200px;
+    max-height: 25px;
+    object-fit: contain;
+  }
+
+
+
+
+
+
+@media (max-width:600px){
+    .content-left{
+        padding: 0;
+    }
+    .logo{
+        width: 80%;
+    }
+}

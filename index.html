@@ -7,10 +7,32 @@
     <meta name="googlebot" content="noindex">
     <title>RIZK - Translatable Content</title>
 
-    <!--STYLES-->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="steps-style.css">
-    <link rel="stylesheet" href="steps-style-edit.css">
+
+
+    <!--CAROUSEL-->
+    <!--Carousel Library-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+  <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.helper.ie8.js"></script><![endif]-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <!-- NOTE: prior to v2.2.1 tiny-slider.js need to be in <body> -->
+    <!--Carousel Style-->
+
+    <!--WOW JS LIBRARY-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js" integrity="sha512-Rd5Gf5A6chsunOJte+gKWyECMqkG8MgBYD1u80LOOJBfl6ka9CtatRrD4P0P5Q5V/z/ecvOCSYC8tLoWNrCpPg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!--SCRIPT WOW.JS-->
+<script>
+    new WOW().init();
+    </script>
+
+
+        <!--STYLES-->
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="steps-style.css">
+        <link rel="stylesheet" href="steps-style-edit.css">
+        <link rel="stylesheet" href="carousel-style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css">
 </head>
 <body>
     <section class="hero-section">
@@ -47,7 +69,7 @@
         <h2>HOW IT WORKS</h2>
         <!--<p class="leader">Here is how it works</p> -->
         <div class="demo-card-wrapper">
-            <div class="demo-card demo-card--step1">
+            <div class="demo-card demo-card--step1 wow animate__animated animate__fadeInUp">
                 <div class="head">
                     <div class="number-box">
                         <span>01</span>
@@ -59,8 +81,8 @@
                     <img src="http://placehold.it/1000x500" alt="Graphic">
                 </div>
             </div>
-
-            <div class="demo-card demo-card--step2">
+    
+            <div class="demo-card demo-card--step2 wow animate__animated animate__fadeInUp">
                 <div class="head">
                     <div class="number-box">
                         <span>02</span>
@@ -72,8 +94,8 @@
                     <img src="http://placehold.it/1000x500" alt="Graphic">
                 </div>
             </div>
-
-            <div class="demo-card demo-card--step3">
+    
+            <div class="demo-card demo-card--step3 wow animate__animated animate__fadeInUp">
                 <div class="head">
                     <div class="number-box">
                         <span>03</span>
@@ -85,7 +107,7 @@
                     <img src="http://placehold.it/1000x500" alt="Graphic">
                 </div>
             </div>
-
+    
             <!-- <div class="demo-card demo-card--step4">
                 <div class="head">
                     <div class="number-box">
@@ -98,7 +120,7 @@
                     <img src="http://placehold.it/1000x500" alt="Graphic">
                 </div>
             </div> -->
-
+    
             <!-- <div class="demo-card demo-card--step5">
                 <div class="head">
                     <div class="number-box">
@@ -111,8 +133,161 @@
                     <img src="http://placehold.it/1000x500" alt="Graphic">
                 </div>
             </div> -->
-
+        
         </div>
     </section>
+
+    <!-- NEW CAROUSEL-->
+    <section class="new_carousel">
+        <div class="games-title-container">
+            <h2>Most Played Games</h2>
+        </div>
+        <div class="containerSlider">
+          
+          <div class="my-slider">
+            <div>
+              <a href="https://rizk.com/nz/register" target="_blank"><img src="s1.jpg" alt=""></a>
+            </div>
+            <div>
+              <a href="https://rizk.com/nz/register" target="_blank"><img src="s2.jpg" alt=""></a>
+            </div>
+            <div>
+              <a href="https://rizk.com/nz/register" target="_blank"><img src="s3.jpg" alt=""></a>
+            </div>
+            <div>
+              <a href="https://rizk.com/nz/register" target="_blank"><img src="s4.jpg" alt=""></a>
+            </div>
+            <div>
+              <a href="https://rizk.com/nz/register" target="_blank"><img src="s5.jpg" alt=""></a>
+            </div>
+            <div>
+              <a href="https://rizk.com/nz/register" target="_blank"><img src="s6.jpg" alt=""></a>
+            </div>
+            <div>
+              <a href="https://rizk.com/nz/register" target="_blank"><img src="s7.jpg" alt=""></a>
+            </div>
+          </div>
+          <ul class="control" id="custom-control">
+            <li class="prev">
+              <i class="fas fa-angle-left fa-2x" style="color: white;"></i>
+            </li>
+            <li class="next">
+              <i class="fas fa-angle-right fa-2x" style="color: white;"></i>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--FOOTER-->
+    <footer>
+        <div class="footer_logo"></div>
+        <ul class="footer-links">
+                  <li><a href="https://rizk.com/nz/about-us">About Us</a></li>
+                  <li><a href="https://rizk.com/nz/payment-options">Payment options</a></li>
+                  <li><a href="https://rizk.com/nz/responsible-gaming">Safer Gambling</a></li>
+                  <li><a href="https://rizk.com/en/sportsbook/game-rules">Betting Rules</a></li>
+                  <li><a href="https://rizk.com/nz/sports-result-page">SPORTS RESULTS PAGE</a></li>
+                  <li><a href="https://www.betssongroupaffiliates.com/">Affiliate program</a></li>
+                  <li><a href="https://rizk.com/nz/terms-and-conditions">Terms and conditions</a></li>
+                  <li><a href="https://rizk.com/nz/casino-bonus-terms">Bonus terms</a></li>
+                  <li><a href="https://rizk.com/nz/security-privacy">Security and privacy</a></li>
+                  <li><a href="https://rizk.com/nz/privacy-policy">Privacy and Cookie Policy</a></li>
+                  <li><a href="https://support.rizk.com/nz" target="_blank">Faq</a></li>
+        </ul>
+        <div class="footer-text">
+          <h3 style="text-align: center;">WELCOME OFFER TERMS AND CONDITIONS:</h3> <br>
+          <p>
+            <ul class="terms-list">
+                <li>The Live Casino Welcome Offer is a 100% Welcome Bonus up to $500.</li>
+                <li>This promotion is not available for players residing in Sweden, Germany, Ireland and the United Kingdom.</li>
+                <li>Minimum deposit is $50, deposits via Skrill (Moneybookers) or Neteller are excluded from this offer.</li>
+                <li>No cap on winnings or withdrawals.</li>
+                <li>The bonus is restricted to the Live Casino.</li>
+                <li>The bonus and respective winnings must be wagered 15x on Live Casino games before the funds can be withdrawn or played on other products.</li>
+                <li>Once the Welcome Bonus has been claimed, your funds will be used in the following order:</li>
+                <li>1. Any funds required to trigger the bonus</li> 
+                <li>2. Bonus funds</li> 
+                <li>3. Any remaining funds.</li>
+                <li>You can forfeit your bonus amount and respective winnings at any time and withdraw any remaining balance.</li>
+                <li>If you choose to request the withdrawal of your deposit before you have completed the wagering requirements your bonus amount and respective winnings, those winnings will be forfeited.</li>
+                <li>The bonus and respective winnings will be forfeited if wagering requirements have not been met within 30 days of the bonus being credited.</li>
+                <li>You can place a maximum bonus bet of $10 per game round when you have the bonus active.</li>
+                <li>You may end your participation in this promotion at any time and keep your remaining deposit and any winnings arising from wagers placed using your deposit.</li>
+                <li>Evolution, Red Tiger and NetEnt do not operate in Quebec, British Columbia and Maitoba.</li>
+                <li>This offer is only valid once per person, computer, IP address or household.</li>
+                <li>Rizk reserves the right to change or cancel this promotion at any time and without notice.</li>
+                <li>In case of any discrepancy between the English Terms & Conditions, and any other language, the English version prevails</li>
+                <br>
+                <li>Rizk Casino’s Standard <a class="terms-link" href="https://rizk.com/nz/terms-and-conditions">Terms and Conditions</a> apply.</li>
+                <br>
+              </ul>
+              <ul class="terms-list-centered">
+              <li>If you have any questions you can contact our support via live chat or by sending e-mail to <a href="mailto:support-nz@rizk.com">support-nz@rizk.com </a></li>
+              <br>
+              <li>Rizk is operated by Zecure Gaming Limited, a company incorporated under the laws of Malta with registration number C69036 and registered address at Betsson Experience Centre, Ta' Xbiex Seafront, Ta' Xbiex, XBX 1027, Malta. Zecure Gaming Limited is licensed and regulated by the <a href="https://www.mga.org.mt/">Malta Gaming Authority</a> under sub-licence number <a href="https://authorisation.mga.org.mt/verification.aspx?lang=EN&amp;company=894fb754-8605-4c2d-8bbe-2febe0ac4dd1&amp;details=1">MGA/CRP/108/2004-05</a> (issued on 5th May 2020.) Zecure Gaming Limited is also licensed and regulated by the UK Gambling Commission under the licence: <a href="https://registers.gamblingcommission.gov.uk/56427">056427</a> (issued on 12th February 2020).</li>
+              <li>Gambling can be addictive and may result in difficulties to stop even when you know it is causing issues. Gambling is not a solution for financial problems – only play for what you can afford to lose! Keep track of how much money and time you are spending online and take action if needed. Play responsibly and get in touch with us or use the tools online<a href="https://rizk.com/en/responsible-gaming" target="_blank"> here </a> should you have any concerns.</li>
+              <br>
+              <li>Rizk only accepts customers over 20 years of age.</li><br>
+              <li>Copyright © 2023 Rizk.com</li>
+            </ul>
+        </div>
+        <div class="gambling">
+                  <a href="https://gamcare.org.uk" class="footer_icon"><img
+                                      src="footer-icon1.png"></a>
+                  <a href="https://www.ecogra.org/srs/dispute.php" class="footer_icon"><img
+                                      src="footer-icon2.png"></a>
+                  <a href="https://www.gamblersanonymous.org.uk" class="footer_icon"><img
+                                      src="footer-icon3.png"></a>
+                  <a href="https://www.begambleaware.org/" class="footer_icon"><img
+                                      src="footer-icon4.png"></a>
+                  <a href="https://www.mga.org.mt/" class="footer_icon"><img
+                                      src="footer-icon5.png"></a>
+                  <a href="https://ec.europa.eu/consumers/odr" class="footer_icon"><img
+                                      src="footer-icon6.png"></a>
+                  <a href="https://rizk.com/en/responsible-gaming" class="footer_icon"><img
+                                      src="20-plus.webp"></a>
+        </div>
+    </footer>
+
+
+
+
+      <!--Script Carousel-->
+
+  <script>
+    var slider = tns({
+    container: '.my-slider',
+    items: 6,
+    nav: false,
+    gutter: 20,
+    mouseDrag: true,
+    controlsPosition: 'bottom',
+    controlsContainer: '#custom-control',
+    responsive: {
+      0:{
+        items: 2
+      },
+      401: {
+        items: 3
+      },
+      701: {
+        items: 3
+      },
+      901: {
+        items: 4
+      },
+      1441: {
+        items: 5
+      },
+      1601: {
+        items: 6
+      }
+    }
+  });
+  </script>
+
+
+ 
+
 </body>
 </html>

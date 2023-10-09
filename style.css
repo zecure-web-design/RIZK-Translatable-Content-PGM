@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #ffffff;
+}
+@font-face {
+    font-family: 'HelveticaMedium';
+    src: url('HelveticaMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Gibson-Regular';
+    src: url('Gibson-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Gibson-Bold';
+    src: url('Gibson-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+h1{
+    font-family:'Gibson-Bold', 'HelveticaMedium', 'sans-serif';
+    font-size: 3rem;
+}
+h2{
+    font-family:'Gibson-Bold', 'HelveticaMedium', 'sans-serif';
+    font-size: 2rem;
+}
+p{
+    font-family:'Gibson-Regular', 'HelveticaMedium', 'sans-serif';
+    font-size: 1rem;
+}
+.cta {
+    /* position: absolute; */
+    background-color: #ffe400;
+    color: black;
+    font-family:'Gibson-Bold', 'HelveticaMedium', 'sans-serif';
+    font-size: 2rem;
+    padding: 15px 50px;
+    border-radius: 50px;
+    text-decoration: none;
+    width: fit-content;
+}
+.hero-section{
+    background: url(hero-bg.png);
+    background-size: cover;
+    min-height: 600px;
+}
+.content-container{
+    max-width: 1920px;
+    display: flex;
+    /* flex-direction: column; */
+    /* column-gap: 20px; */
+    /* row-gap: 20px; */
+    /* width: 50%; */
+    text-align: center;
+    padding: 60px 0 0 0;
+    align-items: center;
+}
+.content-left{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+    padding-left: 10vw;
+}
+
+.payments-container{
+    width: 100%;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px 0;
+  }
+  .payments-container img {
+    display: inline-block;
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    max-width: 70px;
+    max-height: 25px;
+    object-fit: contain;
+  }
+
+
+
